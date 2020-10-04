@@ -6,8 +6,8 @@ public static void main(String[] args){
     if(a=='a' || a=='e' || a=='i' || a=='o' || a=='u'|| a=='A' || a=='E' || a=='I' || a=='O' || a=='U'){
         System.out.println("vowels");
         }
-else{
+        else{
     System.out.println("consonent");
         }
-        }
+     }
 }

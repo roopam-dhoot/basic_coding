@@ -1,7 +1,4 @@
-
-
 public class common_subsequece{
-
     int longestSubbsequence(char[] X, char[] Y, int m, int n){
         if(m==0 || n==0){
             return 0;
@@ -27,4 +24,4 @@ public class common_subsequece{
     int resut=lcs.longestSubbsequence(X,Y,m,n);
     System.out.println(resut);
     }
-    }
+}
