@@ -2,7 +2,7 @@ import java.util.*;
 public class Excel_col_string{
     static int titleToNumber(String s)
     {
-           int result = 0;
+        int result = 0;
         for (int i = 0; i < s.length(); i++)
         {
             result *= 26;
@@ -18,9 +18,7 @@ public class Excel_col_string{
         for(int i=0;i<str.length;i++){
              str[i]=s.nextLine();
         }
-
-            System.out.println(str.toString());
-
+        System.out.println(str.toString());
         for(int j=1;j<str.length;j++){
             System.out.println(titleToNumber(str[j]));
         }
